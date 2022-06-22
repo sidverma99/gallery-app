@@ -1,0 +1,16 @@
+.uc{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+li{
+    font-size: 24px;
+    margin-top: 15px;
+}

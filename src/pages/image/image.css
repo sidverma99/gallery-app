@@ -1,0 +1,73 @@
+.userImages{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imageWrapper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.userImg{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    cursor: pointer;
+}
+#deleteIcon{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.426);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+    justify-content: center;
+    object-fit: cover;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.postIcon{
+    font-size: 20px;
+    cursor: pointer;
+}
