@@ -42,7 +42,7 @@ function Image() {
             fileData.append("file",file)
             fileData.append("name","navbar.jpeg")
             try{
-                await axios.post(`https://sidimggallery.herokuapp.com//api/upload/${user._id}`,fileData);
+                await axios.post(`https://sidimggallery.herokuapp.com/api/upload/${user._id}`,fileData);
                 console.log(fileData);
                 window.location.reload();
             } catch(err){
